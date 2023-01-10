@@ -1,0 +1,31 @@
+.sidebar{
+    /* width: 100%; */
+    background-color: #E8ECEF;
+    /* padding: 0px 30px; */
+    height: 100vh;
+}
+
+.sidebar::-webkit-scrollbar{
+    width: 2px;
+}
+
+.sidebar p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebar li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.sidebar li p{
+    font-weight: 700;
+    display: flex;
+    gap: 10px;
+}
